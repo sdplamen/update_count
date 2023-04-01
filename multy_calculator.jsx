@@ -8,7 +8,7 @@ const App = () => {
 
  useEffect(() => {
   multiply(first * second);
- }, [, ]);
+ }, [first, second));
 
  return (
   <div>
